@@ -30,8 +30,8 @@ class ArrayExceptionDemo{
 			array[i] = scanner.nextInt();
 		}
 		
-		// Call method generate IndexOutOfBoundsException
-		int number = getElement(array, length);
+		// Call method generate and handle IndexOutOfBoundsException
+		int number = getElementHandled(array, length);
 		
 		scanner.close();	// close the scanner
 	}
