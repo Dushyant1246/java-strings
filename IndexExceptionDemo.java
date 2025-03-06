@@ -24,7 +24,7 @@ class IndexExceptionDemo{
 		System.out.print("Enter a string: ");	// welcome
 		String string = scanner.nextLine();
 		
-		// Call method to generate IndexOutOfBoundsException
-		generateIndexOutOfBoundsException(string);
+		// Call method to generate and handle IndexOutOfBoundsException
+		handleIndexOutOfBoundsException(string);
 	}
 }
