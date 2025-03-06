@@ -17,7 +17,7 @@ class NullExceptionDemo{
 	}
 	
 	public static void main(String[] args) {
-		// Call method to generate NullPointerException
-		generateNullPointerException();
+		// Call method to generate and handle NullPointerException
+		handleNullPointerException();
 	}
 }
