@@ -26,8 +26,8 @@ class NumberFormatDemo{
 		System.out.print("Enter a number: ");	// welcome
 		String string = scanner.nextLine();
 		
-		// Call method to generate IndexOutOfBoundsException
-		int number = stringToInteger(string);
+		// Call method to generate and handle IndexOutOfBoundsException
+		int number = stringToIntegerHandled(string);
 		
 		scanner.close();	// close the scanner
 	}
