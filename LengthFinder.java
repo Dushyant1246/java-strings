@@ -1,4 +1,4 @@
-// LengthFinder class to find the length of a string without using the length() method
+// LengthFinder class to find the length of a string without using the length method
 import java.util.Scanner;
 
 class LengthFinder {
