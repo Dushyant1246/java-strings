@@ -32,8 +32,8 @@ class IllegalArgumentDemo{
 		System.out.print("Enter a string: ");	// welcome
 		String string = scanner.nextLine();
 		
-		// Call method to generate IndexOutOfBoundsException
-		String substr = getSubstring(string, 6, 3);
+		// Call method to generate and handle IndexOutOfBoundsException
+		String substr = getSubstringHandled(string, 6, 3);
 		
 		scanner.close();	// close the scanner
 	}
