@@ -1,1 +1,12 @@
-read me
+1. VowelsConsonantCounter.java
+2. StringReverser.java
+3. PalindromeChecker.java
+4. RemoveDuplicates.java
+5. LongestWordFinder.java
+6. Substring.java
+7. ToggleCase.java
+8. LexicographicalComparison.java
+9. MostFrequentCharacter.java
+10. RemoveCharacter.java
+11. AnagramChecker.java
+12. ReplaceWord.java
